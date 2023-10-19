@@ -26,7 +26,7 @@ hlspeak five minutes remaining
 hlspeak detonation in three two one
 ```
 
-For the female variant, use the `-f` parameter.
+For the female variant, use the `-f` flag.
 
 ```
 hlspeak -f power_level_is ninety percent
