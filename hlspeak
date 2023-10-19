@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Directory where the wav files are located. Modify this if needed.
-SOUND_DIR="./sound/vox/"
-ALT_SOUND_DIR="./sound/fvox/"
+SOUND_DIR="../hl1/sound/vox/"
+ALT_SOUND_DIR="../hl1/sound/fvox/"
 
 # Process options and arguments
 while [[ "$#" -gt 0 ]]; do
