@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Directory where the wav files are located. Modify this if needed.
-SOUND_DIR="../hl1/sound/vox/"
-ALT_SOUND_DIR="../hl1/sound/fvox/"
+SOUND_DIR="$HOME/.hlspeak/hl1/sound/vox"
+ALT_SOUND_DIR="$HOME/.hlspeak/hl1/sound/fvox"
 
 # Process options and arguments
 while [[ "$#" -gt 0 ]]; do
@@ -17,24 +17,16 @@ while [[ "$#" -gt 0 ]]; do
     esac
 done
 
-for word in "$@"; do
-    sound_file="${SOUND_DIR}/${word}.wav"
-    if [[ -f $sound_file ]]; then
-        afplay "$sound_file"
-    else
-        echo "Warning: Sound file for '${word}' not found."
-    fi
-done
-
+PLATFORM=$(uname -s)
 for word in "$@"; do
     sound_file="${SOUND_DIR}/${word}.wav"
     if [[ -f $sound_file ]]; then
         case $PLATFORM in
             Darwin)   # macOS
-                afplay "$sound_file"
+                afplay $sound_file
                 ;;
             Linux)
-                aplay "$sound_file"
+                aplay $sound_file
                 ;;
         esac
     else
