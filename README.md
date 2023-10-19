@@ -1,6 +1,6 @@
 # hlspeak
 
-Play Half-Life 1 sounds straight from your terminal! Great for letting you know when CI builds finish and for pranking you friends with self-destruct timers.
+Play Half-Life 1 voices straight from your terminal! Great for letting you know when CI builds finish and for pranking you friends with self-destruct timers.
 
 ## Installation
 ```
