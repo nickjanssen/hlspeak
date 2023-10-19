@@ -4,10 +4,8 @@ Play Half-Life 1 voices straight from your terminal! Great for letting you know 
 
 
 `hlspeak detonation in three two one`
+
 https://github.com/nickjanssen/hlspeak/assets/2780160/4f6682e3-3e87-4fba-adc1-0b71015487ed
-
-
-
 
 ## Installation
 ```
