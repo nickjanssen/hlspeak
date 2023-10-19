@@ -4,9 +4,9 @@ Play Half-Life 1 voices straight from your terminal! Great for letting you know 
 
 ## Installation
 ```
-mkdir ~/.hlspeak
-git clone https://github.com/nickjanssen/hlspeak.git
-git clone https://github.com/sourcesounds/hl1.git 
+mkdir ~/.hlspeak && cd ~/.hlspeak
+git clone https://github.com/nickjanssen/hlspeak.git hlspeak
+git clone https://github.com/sourcesounds/hl1.git hl1
 chmod +x hlspeak/hlspeak
 echo 'export PATH=$PATH:~/.hlspeak/hlspeak' >> ~/.bashrc && source ~/.bashrc
 ```
