@@ -31,6 +31,17 @@ For the female variant, use the `-f` flag.
 ```
 hlspeak -f power_level_is ninety percent
 ```
+## Preamble Noises
+
+```
+hlspeak bizwarn bloop buzwarn dadeda deeoo doop woop
+```
+
+Finally, every failed build can now be a facility-wide announcement!
+
+```
+hlspeak buzwarn system failure detected bizwarn unauthorized system command
+```
 
 # Sound list
 
